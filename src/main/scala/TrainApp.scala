@@ -14,7 +14,10 @@ object TrainApp extends App {
   // WTF: envs must not be empty or CreateServer.engineInstances.get... fails due to JDBCUtils.stringToMap
   val sparkConf = Map("spark.executor.extraClassPath" -> ".")
 
-  val engineFactoryName = "SimilarProductEngine"
+  /*******************************************************************************/
+  /************* Update the Engine Name to change Engine Template  ************/
+  /*******************************************************************************/
+  val engineFactoryName = "ComplementaryPurchaseEngine"
 
   val workflowConfig = WorkflowConfig(
     engineId = EngineConfig.engineId,
@@ -35,7 +38,11 @@ object TrainApp extends App {
 
   val dataSourceParams = DataSourceParams(sys.env.get("APP_NAME").get)
   val preparatorParams = EmptyParams()
-  val algorithmParamsList = Seq("als" -> ALSAlgorithmParams(rank = 10, numIterations = 10, lambda = 0.01, seed = Some(3)))
+  /*******************************************************************************/
+  /************* Update the Engine Parameters to change Engine Template  ************/
+  /*******************************************************************************/
+  val algorithmParamsList = Seq("als" -> AlgorithmParams(basketWindow = 10, maxRuleLength = 10, minSupport=0.01, minConfidence=0.01, minLift=0.01, minBasketSize=2, maxNumRulesPerCond=10))
+  /*******************************************************************************/
   val servingParams = EmptyParams()
 
   val engineInstance = EngineInstance(
