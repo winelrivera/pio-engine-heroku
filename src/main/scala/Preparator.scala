@@ -1,5 +1,3 @@
-package org.template.complementarypurchase
-
 import io.prediction.controller.PPreparator
 
 import org.apache.spark.SparkContext

@@ -1,5 +1,3 @@
-package org.template.complementarypurchase
-
 import io.prediction.controller.P2LAlgorithm
 import io.prediction.controller.Params
 

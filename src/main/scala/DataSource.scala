@@ -1,5 +1,3 @@
-package org.template.complementarypurchase
-
 import io.prediction.controller.PDataSource
 import io.prediction.controller.EmptyEvaluationInfo
 import io.prediction.controller.EmptyActualResult
