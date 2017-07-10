@@ -1,11 +1,11 @@
 package org.template.complementarypurchase
 
-import predictionio.controller.PDataSource
-import predictionio.controller.EmptyEvaluationInfo
-import predictionio.controller.EmptyActualResult
-import predictionio.controller.Params
-import predictionio.data.storage.Event
-import predictionio.data.store.PEventStore
+import io.prediction.controller.PDataSource
+import io.predictionpredictionio.controller.EmptyEvaluationInfo
+import io.prediction.controller.EmptyActualResult
+import io.prediction.controller.Params
+import io.prediction.data.storage.Event
+import io.prediction.data.store.PEventStore
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._

@@ -1,7 +1,7 @@
 package org.template.complementarypurchase
 
-import opredictionio.controller.EngineFactory
-import predictionio.controller.Engine
+import io.prediction.controller.EngineFactory
+import io.prediction.controller.Engine
 
 case class Query(items: Set[String], num: Int)
   extends Serializable
