@@ -1,7 +1,7 @@
 package org.template.complementarypurchase
 
 import io.prediction.controller.PDataSource
-import io.predictionpredictionio.controller.EmptyEvaluationInfo
+import io.prediction.controller.EmptyEvaluationInfo
 import io.prediction.controller.EmptyActualResult
 import io.prediction.controller.Params
 import io.prediction.data.storage.Event
