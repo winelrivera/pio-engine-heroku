@@ -1,6 +1,6 @@
 package org.template.complementarypurchase
 
-import org.apache.predictionio.controller.PPreparator
+import predictionio.controller.PPreparator
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._

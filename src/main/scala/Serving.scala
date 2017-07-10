@@ -1,6 +1,6 @@
 package org.template.complementarypurchase
 
-import org.apache.predictionio.controller.LServing
+import predictionio.controller.LServing
 
 import grizzled.slf4j.Logger
 

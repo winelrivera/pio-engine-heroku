@@ -1,7 +1,7 @@
 package org.template.complementarypurchase
 
-import org.apache.predictionio.controller.P2LAlgorithm
-import org.apache.predictionio.controller.Params
+import predictionio.controller.P2LAlgorithm
+import predictionio.controller.Params
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
