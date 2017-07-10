@@ -41,7 +41,7 @@ object TrainApp extends App {
   /*******************************************************************************/
   /************* Update the Engine Parameters to change Engine Template  ************/
   /*******************************************************************************/
-  val algorithmParamsList = Seq("als" -> AlgorithmParams(basketWindow = 10, maxRuleLength = 10, minSupport=0.01, minConfidence=0.01, minLift=0.01, minBasketSize=2, maxNumRulesPerCond=10))
+  val algorithmParamsList = Seq("algo" -> AlgorithmParams(basketWindow = 10, maxRuleLength = 10, minSupport=0.01, minConfidence=0.01, minLift=0.01, minBasketSize=2, maxNumRulesPerCond=10))
   /*******************************************************************************/
   val servingParams = EmptyParams()
 
